@@ -1,0 +1,152 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background:linear;
+	
+	
+	  
+    /*font-family: montserrat;*/
+	/*height: 100vh;*/
+	/*overflow: hidden;*/
+	opacity: 0.9;
+    }
+   
+
+   .center{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width: 450px;
+	background:#EAEDF0 ;
+	border-radius: 10px;
+	/*height: 520px;*/
+  }
+  .close{
+  	position: absolute;
+  	top: 0;
+  	right: 25px;
+  	font-size: 42px;
+  	transform: rotate(45deg);
+  	cursor: pointer;
+  }
+
+  .center p {  
+	text-align: left;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid  silver;
+	height: 18px;
+	margin:20px;
+
+}
+.center form {
+	padding:  0 40px;
+	box-sizing:  border-box;
+
+}
+
+
+   form .text_field {
+	position: relative;
+	border-bottom: 2px solid  #adadad;
+	margin:  20px 0;
+
+}
+.text_field input{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	border: none;
+	background: none; 	 	
+	outline: none;
+
+
+} 
+
+.text_field label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #adadad;
+	transform: translateY(-50%);
+	font-size: 16px;
+	pointer-events: none;
+	transition: .5s;
+
+
+}
+.text_field span::before{
+	content: '';
+	position: absolute;
+	top: 40px;
+	left: 0;
+	
+	height: 2px;
+	background: blue;
+	transition: .5s;
+
+
+
+}
+.text_field input:focus ~ label,
+.text_field input:valid ~ label {
+	top: -5px;
+	color: blue	;
+}
+
+.text_field input:focus ~ span::before,
+.text_field input:valid ~ span::before {
+	width: 100%;
+
+
+}
+
+
+.pass{
+	margin: -5px 0 20px  5px;
+	color: #a6a6a6;
+	cursor: pointer;
+
+}
+.pass:hover{
+	text-decoration:underline;
+}
+
+/*button{
+		
+		width: 20%;
+		padding: 10px;
+		border-radius: 4px;
+		font-size: 15px;
+		margin: 8px 0;
+       text-align: center;
+
+		
+
+		background-color: blue;
+		color: white;
+		right: -40px;
+		
+
+	}*/
+
+   button{
+		
+		width: 27%;
+		padding: 6px;
+		border-radius: 6px;
+		font-size: 18px;
+		margin: 9px;
+		text-align: center;
+		background-color:  #6495ED;
+		color: white;
+		margin-left: 269px;
+
+
+	}
+	p1{
+		color: #A6AAA9;
+		font-size: 14.7px;
+	}

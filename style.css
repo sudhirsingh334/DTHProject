@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+#sidebar {
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	left: -30%;
+	background:white;
+	box-shadow: 0 0 2px 0 green;
+
+
+}
+#sidebar li {
+	color: #88b06a;
+	font-size: 30px;
+	padding: 30px;
+	border-bottom: 1px  solid gray;
+	text-align: center;
+	box-shadow: 0 0 25px 0 white;
+}
+
+.toggle-btn {
+	position: absolute;
+	left: 120%;
+	top: 25px;
+	cursor: pointer;
+	
+
+}
+.toggle-btn span {
+	display: block;
+	background: #88b06a;
+	width: 25px;
+	height: 3px;
+	margin:3px; 
+	/*display: flex;	*/
+
+}
+
+
+
+#sidebar.active {
+	left:0;
+
+
+}
+
+nav  {
+	background-color: white;
+    height: 70px;
+    position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+
+display: flex;
+align-items: center;
+text-align: center;
+box-shadow: 0 0 250px 0 green;
+align-items: center;
+justify-content: space-between;
+padding: 0px 50px 0px 100px;
+
+}
+  nav .logo{
+  	font-size: 23px;
+  	color:#88b06a;
+  	/*font-weight: 900px;*/
+  	letter-spacing: 0px;
+
+
+
+	
+	height: 30px;
+	margin:45px; 
+	/*display: flex;*/	
+  }
+
+nav ul {
+margin: 20px;
+display: flex;
+list-style: none;
+
+}
+nav ul li {
+	margin: 0 40px;
+}
+nav  ul li a {
+color: #88b06a;
+text-decoration: none;
+	
+}
+
+
+button  {
+		padding: 15px;
+		border-radius: 1px;
+		font-size: 20px;
+		background-color: #88b06a;	
+
+
+  left: 42%;
+  top: 25px;
+ 
+
+   height: 60px;
+  position: relative;
+  border: 20px solid #88b06a; 
+  text-align: center;
+  
+
+
+	}
+	
+button a{
+		color: white;
+		text-decoration: none;
+		
+			}
+			.close{
+  	position: absolute;
+  	top: 0;
+  	left: 25px;
+  	font-size: 42px;
+  	transform: rotate(45deg);
+  	cursor: pointer;
+  }
+
+ 
+ 
+
